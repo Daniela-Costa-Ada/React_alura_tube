@@ -31,7 +31,7 @@ npm install styled-components (para css)**
 - ``Figma``
 - ## Special thanks
 
-[![BrowserStack logo](./admin/img/browserstack-logo.png)](http://www.browserstack.com/)
+[!https://www.linkedin.com/in/echodanielacosta/)
 
 [BrowserStack](http://www.browserstack.com/) supports us with [free access for open source](https://www.browserstack.com/open-source).
 
