@@ -37,20 +37,28 @@
                 "title": "Vamos fazer pão?",
                 "url": "https://youtu.be/Jgpet66IxbM",
                 "thumb": "https://img.youtube.com/vi/Jgpet66IxbM/hqdefault.jpg"
+            },
+            {
+                "title": "ROSQUINHAS DE PADARIA PARA O CAFÉ - ROSQUINHAS ASSADAS DE COCO FÁCIL",
+                "url": "https://youtu.be/BlyaT7DSlO0",
+                "thumb": "https://img.youtube.com/vi/BlyaT7DSlO0/hqdefault.jpg"
+            },
+            {
+                "title": "Os melhores cookies que você vai comer!",
+                "url": "https://youtu.be/32bvO6_oe2I",
+                "thumb": "https://img.youtube.com/vi/32bvO6_oe2I/hqdefault.jpg"
+            },
+            {
+                "title": "Os melhores cookies que você vai comer!",
+                "url": "https://youtu.be/hGy_fFFxtl0",
+                "thumb": "https://img.youtube.com/vi/hGy_fFFxtl0/hqdefault.jpg"
             }
         ],
-        "Coding":  [
+        "Cine":  [
             {
-                "title": "Algum titulo",
-                "url": "url",
-                "thumb": "https://img.youtube.com/vi/NmKbxdwbKlE/hqdefault.jpg"
-            }
-        ],
-        "JiuJitsu":  [
-            {
-                "title": "Algum titulo",
-                "url": "url",
-                "thumb": "https://img.youtube.com/vi/NmKbxdwbKlE/hqdefault.jpg"
+                "title": "Quando Hayao Miyazaki Foi BRUTAL",
+                "url": "https://youtu.be/n1LhSifbzF8?t=15",
+                "thumb": "https://img.youtube.com/vi/n1LhSifbzF8/hqdefault.jpg"
             }
         ]
         
