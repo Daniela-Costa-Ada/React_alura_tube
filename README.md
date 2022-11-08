@@ -13,6 +13,7 @@ Organization of my "watch later" on youtube.
 # 📁 Acesso ao projeto
 
 **Através deste repo do Github, é possivel baixar o projeto**
+Você pode acessar os arquivos do projeto clicando [aqui]([https://react-alura-tube.vercel.app/]).
 
 # 🛠️ Abrir e rodar o projeto
 
@@ -29,7 +30,3 @@ npm install styled-components (para css)**
 - ``Next js``
 - ``Visual Studio Code``
 - ``Figma``
-# Autores
-
-| [<img src="[https://avatars.githubusercontent.com/u/37356058?v=4](https://github.com/account)" width=115><br><sub>Camila Fernanda Alves</sub>](https://github.com/camilafernanda) |  [<img src="https://avatars.githubusercontent.com/u/30351153?v=4" width=115><br><sub>Guilherme Lima</sub>](https://github.com/guilhermeonrails) |  [<img src="https://avatars.githubusercontent.com/u/8989346?v=4" width=115><br><sub>Alex Felipe</sub>](https://github.com/alexfelipe) |
-| :---: | :---: | :---: |
