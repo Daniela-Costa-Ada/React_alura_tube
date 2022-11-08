@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { CSSReset } from "../src/components/CSSReset";
 import Menu from "../src/components/Menu";
 import { StyledTimeline } from "../src/components/Timeline";
+import { StyledFavorites } from "../src/components/Favorites";
 
 function HomePage() {
     const estilosDaHomePage = {
@@ -16,10 +17,15 @@ function HomePage() {
                 <CSSReset />
                 <div style={estilosDaHomePage}>
                     <Menu />
-                    <Header />
+                    <Header banner={config.banner}>
+
+                    </Header>
                     <Timeline playlists={config.playlists}>
                         Conteudo
                     </Timeline>
+                    <Favorites favorites={config.favorites}>
+                    
+                    </Favorites>
                 </div>
             </>
         );
@@ -36,10 +42,16 @@ export default HomePage
 // }
 
 const StyledHeader = styled.div`
-    img {
+    .foto {
         width: 80px;
         height: 80px;
         border-radius: 50%;        
+    }
+    .banner {
+        width: 100%;
+        height: 405px;
+        background-position: center;
+        //padding: 32px 32px 32px 32px; // fix later
     }
     .user-info {
         margin-top: 50px;
@@ -50,12 +62,12 @@ const StyledHeader = styled.div`
         gap: 16px;
     }
 `;
-function Header() {
+function Header(props) {
     return (
         <StyledHeader>
-            {/* <img src="banner" /> */}
+            <img className="banner" src={`https://images.unsplash.com/${props.banner}`} />
             <section className="user-info">
-                <img src={`https://github.com/${config.github}.png`} />
+                <img className="foto" src={`https://github.com/${config.github}.png`} />
                 <div>
                     <h2>
                         {config.name}
@@ -97,5 +109,33 @@ function Timeline(props) {
                 )
             })}
         </StyledTimeline>
+    )
+}
+function Favorites(props) {
+    const fav = Object.keys(props.favorites);
+    //console.log(fav);
+    return (
+        <StyledFavorites>
+            {fav.map((fav) => {
+                const nameFav = props.favorites[fav];
+                return (
+                    <section>
+                        <h2>{fav}</h2>
+                        <StyledFavorites>
+                            {nameFav.map((fav)=> {
+                                return (
+                                    <a href={fav.url}>
+                                        <img src={fav.thumb} />
+                                        <span>
+                                            {fav.nameFav}
+                                        </span>
+                                    </a>
+                                )
+                            })}
+                        </StyledFavorites>
+                    </section>
+                )
+            })}
+        </StyledFavorites>
     )
 }
