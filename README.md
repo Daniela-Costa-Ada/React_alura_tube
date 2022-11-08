@@ -33,7 +33,7 @@ npm install styled-components (para css)**
 
 [!https://www.linkedin.com/in/echodanielacosta/)
 
-[BrowserStack](http://www.browserstack.com/) supports us with [free access for open source](https://www.browserstack.com/open-source).
+[BrowserStack]([http://www.browserstack.com/](https://www.linkedin.com/in/echodanielacosta/)) supports us with [free access for open source](https://www.browserstack.com/open-source).
 
 [![Rocket Validator logo](./admin/img/rocketvalidator-logo.png)](https://rocketvalidator.com/)
 
