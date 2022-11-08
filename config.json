@@ -1,0 +1,43 @@
+{
+    "name": "Daniela Costa",
+    "job": "Software Developer Back End",
+    "github": "Daniela-Costa-Ada",
+    "playlists": {
+        "Makes":  [
+            {
+                "title": "MY SIGNATURE SUMMER MAKEUP! | Hindash",
+                "url": "https://www.youtube.com/watch?v=NmKbxdwbKlE&list=WL&index=10",
+                "thumb": "https://img.youtube.com/vi/NmKbxdwbKlE/hqdefault.jpg"
+                
+            },
+            {
+                "title": "THE EASIEST WAY TO ENHANCE YOUR FACE WITH MAKEUP! | Hindash",
+                "url": "https://youtu.be/CpW-Hy8DFic",
+                "thumb": "https://img.youtube.com/vi/CpW-Hy8DFic/hqdefault.jpg"
+                
+            }
+        ],
+        "Cooking":  [
+            {
+                "title": "Vamos fazer pão?",
+                "url": "https://youtu.be/Jgpet66IxbM",
+                "thumb": "https://img.youtube.com/vi/Jgpet66IxbM/hqdefault.jpg"
+            }
+        ],
+        "Coding":  [
+            {
+                "title": "Algum titulo",
+                "url": "url",
+                "thumb": "thumbnail do video"
+            }
+        ],
+        "JiuJitsu":  [
+            {
+                "title": "Algum titulo",
+                "url": "url",
+                "thumb": "thumbnail do video"
+            }
+        ]
+        
+    }
+}
