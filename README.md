@@ -5,4 +5,3 @@ Organization of my "watch later" on youtube.
 <img src="https://img.shields.io/github/license/Daniela-Costa-Ada/React_alura_tube"/>
 </p>
 > :construction: Projeto em construção :construction:
-#Título-e-Imagem-de-capa
