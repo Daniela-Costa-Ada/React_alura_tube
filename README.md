@@ -13,7 +13,7 @@ Organization of my "watch later" on youtube.
 # 📁 Acesso ao projeto
 
 **Através deste repo do Github, é possivel baixar o projeto**
-Você pode acessar os arquivos do projeto clicando [aqui]([https://react-alura-tube.vercel.app/]).
+Você pode acessar os arquivos do projeto clicando [aqui](https://react-alura-tube.vercel.app/).
 
 # 🛠️ Abrir e rodar o projeto
 
