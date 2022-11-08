@@ -12,8 +12,29 @@ Organization of my "watch later" on youtube.
 - `Funcionalidade 2`: lista de favoritos do youtube
 # 📁 Acesso ao projeto
 
-**Indique como é possível baixar ou acessar o código fonte do projeto, seja projeto inicial ou final**
+**Através deste repo do Github, é possivel baixar o projeto**
 
 # 🛠️ Abrir e rodar o projeto
 
-**Apresente as instruções necessárias para abrir e executar o projeto**
+**Para comecar um projeto Em React
+instala nodejs no computador
+instala npm
+cria uma pasta e roda 
+npm install next react react-dom
+npm install styled-components (para css)**
+
+## ✔️ Técnicas e tecnologias utilizadas
+
+- ``React js``
+- ``Next js``
+- ``Visual Studio Code``
+- ``Figma``
+- ## Special thanks
+
+[![BrowserStack logo](./admin/img/browserstack-logo.png)](http://www.browserstack.com/)
+
+[BrowserStack](http://www.browserstack.com/) supports us with [free access for open source](https://www.browserstack.com/open-source).
+
+[![Rocket Validator logo](./admin/img/rocketvalidator-logo.png)](https://rocketvalidator.com/)
+
+[Rocket Validator](https://rocketvalidator.com/) helps us find HTML markup or accessibility issues.
