@@ -33,14 +33,6 @@ function HomePage() {
 
 export default HomePage
 
-// function Menu() {
-//     return (
-//         <div>
-//             Menu
-//         </div>
-//     )
-// }
-
 const StyledHeader = styled.div`
     .foto {
         width: 80px;
@@ -49,9 +41,10 @@ const StyledHeader = styled.div`
     }
     .banner {
         width: 100%;
-        height: 405px;
+        height: 320px;
         background-position: center;
         //padding: 32px 32px 32px 32px; // fix later
+        object-fit: cover;
     }
     .user-info {
         margin-top: 50px;
