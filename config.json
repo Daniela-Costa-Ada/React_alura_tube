@@ -3,6 +3,7 @@
     "job": "Software Developer Back End",
     "github": "Daniela-Costa-Ada",
     "banner": "photo-1493723843671-1d655e66ac1c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "bg": "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     "playlists": {
         "Makes":  [
             {
@@ -49,19 +50,26 @@
                 "thumb": "https://img.youtube.com/vi/32bvO6_oe2I/hqdefault.jpg"
             },
             {
-                "title": "Os melhores cookies que você vai comer!",
+                "title": "Meu Segredo para Fazer o Melhor Macarrão Alho e Óleo",
                 "url": "https://youtu.be/hGy_fFFxtl0",
                 "thumb": "https://img.youtube.com/vi/hGy_fFFxtl0/hqdefault.jpg"
             }
         ],
         "Cine":  [
+            
             {
                 "title": "Quando Hayao Miyazaki Foi BRUTAL",
                 "url": "https://youtu.be/n1LhSifbzF8?t=15",
                 "thumb": "https://img.youtube.com/vi/n1LhSifbzF8/hqdefault.jpg"
             }
-        ]
-        
+        ],
+        "Cinema":  [
+            {
+                "title": "Quando Hayao Miyazaki Foi BRUTAL",
+                "url": "https://youtu.be/n1LhSifbzF8?t=15",
+                "thumb": "https://img.youtube.com/vi/n1LhSifbzF8/hqdefault.jpg"
+            }
+        ]        
     },
     "favorites": {
         "Favorites":  [

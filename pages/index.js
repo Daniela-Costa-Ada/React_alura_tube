@@ -1,3 +1,4 @@
+import React from "react";
 import config from "../config.json"
 import styled from "styled-components";
 import { CSSReset } from "../src/components/CSSReset";
@@ -6,21 +7,21 @@ import { StyledTimeline } from "../src/components/Timeline";
 import { StyledFavorites } from "../src/components/Favorites";
 
 function HomePage() {
-    const estilosDaHomePage = {
-        // backgroundColor: "red" 
-    };
-
-        //console.log(config.playlists);
+    const [filterValue, setfilterValue] = React.useState("");
 
         return (
             <>
                 <CSSReset />
-                <div style={estilosDaHomePage}>
-                    <Menu />
+                <div style={{display: "flex",
+                flexDirection: "column",
+                flex: 1}
+                }>
+                    {/*prop drilling */}
+                    <Menu filterValue={filterValue} setfilterValue={setfilterValue} />
                     <Header banner={config.banner}>
 
                     </Header>
-                    <Timeline playlists={config.playlists}>
+                    <Timeline searchValue={filterValue} playlists={config.playlists}>
                         Conteudo
                     </Timeline>
                     <Favorites favorites={config.favorites}>
@@ -39,15 +40,14 @@ const StyledHeader = styled.div`
         height: 80px;
         border-radius: 50%;        
     }
-    .banner {
+    /* .banner {
         width: 100%;
         height: 320px;
         background-position: center;
         //padding: 32px 32px 32px 32px; // fix later
         object-fit: cover;
-    }
+    } */
     .user-info {
-        margin-top: 50px;
         display: flex;
         align-items: center;
         width: 100%;
@@ -55,10 +55,16 @@ const StyledHeader = styled.div`
         gap: 16px;
     }
 `;
+const StyledBanner = styled.div`
+    background-color: blue;
+    /* background-image: url(${config.bg}); */
+    background-image: url(${({ bg }) => bg});
+    height: 230px;
+`;
 function Header(props) {
     return (
         <StyledHeader>
-            <img className="banner" src={`https://images.unsplash.com/${props.banner}`} />
+            <StyledBanner bg={config.bg} />           
             <section className="user-info">
                 <img className="foto" src={`https://github.com/${config.github}.png`} />
                 <div>
@@ -76,20 +82,24 @@ function Header(props) {
 //Statement
 //Retorno por expressao pesquisar??
 
-function Timeline(props) {
-    //console.log("Dentro do componente", props);
+function Timeline({searchValue, ...props}) {
     const playlistsNames = Object.keys(props.playlists);
     return (
         <StyledTimeline>
             {playlistsNames.map((playlistsNames) => {
                 const videos = props.playlists[playlistsNames];
                 return (
-                    <section>
+                    <section key={playlistsNames}>
                         <h2>{playlistsNames}</h2>
                         <div>
-                            {videos.map((video) => {
+                            {videos
+                            .filter((video) => {
+                                const titleNormalized = video.title.toLowerCase();
+                                const searchValueNormalized = searchValue.toLowerCase();
+                                return titleNormalized.includes(searchValueNormalized)
+                            }).map((video) => {
                                 return (
-                                    <a href={video.url}>
+                                    <a key={video.url} href={video.url}>
                                         <img src={video.thumb} />
                                         <span>
                                             {video.title}
@@ -106,7 +116,6 @@ function Timeline(props) {
 }
 function Favorites(props) {
     const fav = Object.keys(props.favorites);
-    //console.log(fav);
     return (
         <StyledFavorites>
             {fav.map((fav) => {
