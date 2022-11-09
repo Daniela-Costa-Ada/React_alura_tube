@@ -11,7 +11,7 @@ h2 {
     text-transform: capitalize;
 }
 img {
-    aspect-ratio: 16/9;
+    aspect-ratio: 19/9;
     font-weight: 500;
     object-fit: cover;
     width: 100%;

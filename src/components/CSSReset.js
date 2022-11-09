@@ -9,6 +9,8 @@ export const CSSReset = createGlobalStyle`
 }
 body {
     font-family: sans-serif;
+    background-color: ${({ theme }) => theme.backgroundBase};
+    color: ${({theme}) => theme.textColorBase};
 }
   /* NextJS */
 html {
@@ -34,6 +36,9 @@ a {
     &:focus {
     opacity: .5;
     }
+}
+.viImg {
+  border-radius: 5%;
 }
 * {
   outline: 0;

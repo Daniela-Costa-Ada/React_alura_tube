@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 export const StyledFavorites = styled.div`
-flex: 1;
+/* flex: 1;
 width: 100%;
 padding: 16px;
-overflow: hidden;
+overflow: hidden; */
+// Melhorar a apresentação dos favoritos
 h2 {
     font-size: 16px;
     margin-bottom: 16px;
@@ -13,10 +14,10 @@ h2 {
 img {
     border-radius: 50%; 
     //font-weight: 500;
-    //object-fit: cover;
+    object-fit: cover;
     width: 80%;
     //max-width: 210px;
-    //height: auto;
+    height: auto;
 }
 section {
     width: 100%;

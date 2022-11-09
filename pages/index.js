@@ -1,7 +1,6 @@
 import React from "react";
 import config from "../config.json"
 import styled from "styled-components";
-import { CSSReset } from "../src/components/CSSReset";
 import Menu from "../src/components/Menu";
 import { StyledTimeline } from "../src/components/Timeline";
 import { StyledFavorites } from "../src/components/Favorites";
@@ -11,14 +10,13 @@ function HomePage() {
 
         return (
             <>
-                <CSSReset />
                 <div style={{display: "flex",
                 flexDirection: "column",
                 flex: 1}
                 }>
                     {/*prop drilling */}
                     <Menu filterValue={filterValue} setfilterValue={setfilterValue} />
-                    <Header banner={config.banner}>
+                    <Header>
 
                     </Header>
                     <Timeline searchValue={filterValue} playlists={config.playlists}>
@@ -35,18 +33,12 @@ function HomePage() {
 export default HomePage
 
 const StyledHeader = styled.div`
+background-color: ${({ theme }) => theme.backgroundLevel1};
     .foto {
         width: 80px;
         height: 80px;
         border-radius: 50%;        
     }
-    /* .banner {
-        width: 100%;
-        height: 320px;
-        background-position: center;
-        //padding: 32px 32px 32px 32px; // fix later
-        object-fit: cover;
-    } */
     .user-info {
         display: flex;
         align-items: center;
@@ -56,8 +48,6 @@ const StyledHeader = styled.div`
     }
 `;
 const StyledBanner = styled.div`
-    background-color: blue;
-    /* background-image: url(${config.bg}); */
     background-image: url(${({ bg }) => bg});
     height: 230px;
 `;
@@ -100,7 +90,7 @@ function Timeline({searchValue, ...props}) {
                             }).map((video) => {
                                 return (
                                     <a key={video.url} href={video.url}>
-                                        <img src={video.thumb} />
+                                        <img className="viImg" src={video.thumb} />
                                         <span>
                                             {video.title}
                                         </span>
