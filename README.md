@@ -8,7 +8,7 @@ Organization of my "watch later" on youtube.
 
 # :hammer: Funcionalidades do projeto
 
-- `Funcionalidade 1`: TimeLine de videos do "Assitir mais tarde" do youtube
+- `Funcionalidade 1`: TimeLine de videos do "Assistir mais tarde" do youtube
 - `Funcionalidade 2`: lista de favoritos do youtube
 - `Funcionalidade 3`: Busca! Implementando.
 - `Funcionalidade 4`: DarkMode! Implementando.
