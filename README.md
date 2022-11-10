@@ -12,7 +12,7 @@ Organization of my "watch later" on youtube.
 - `Funcionalidade 2`: lista de favoritos do youtube
 - `Funcionalidade 3`: Busca! Implementando.
 - `Funcionalidade 4`: DarkMode! Implementando.
-- `Funcionalidade 4`: ...Implementando...
+- `Funcionalidade 5`: ...Implementando...
 # 📁 Acesso ao projeto
 
 **Através deste repo do Github, é possivel baixar o projeto**
