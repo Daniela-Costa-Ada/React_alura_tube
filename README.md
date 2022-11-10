@@ -11,6 +11,8 @@ Organization of my "watch later" on youtube.
 - `Funcionalidade 1`: TimeLine de videos do "Assitir mais tarde" do youtube
 - `Funcionalidade 2`: lista de favoritos do youtube
 - `Funcionalidade 3`: Busca! Implementando.
+- `Funcionalidade 4`: DarkMode! Implementando.
+- `Funcionalidade 4`: ...Implementando...
 # 📁 Acesso ao projeto
 
 **Através deste repo do Github, é possivel baixar o projeto**
