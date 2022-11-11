@@ -8,9 +8,11 @@ Organization of my "watch later" on youtube.
 
 # :hammer: Funcionalidades do projeto
 
-- `Funcionalidade 1`: TimeLine de videos do "Assitir mais tarde" do youtube
+- `Funcionalidade 1`: TimeLine de videos do "Assistir mais tarde" do youtube
 - `Funcionalidade 2`: lista de favoritos do youtube
 - `Funcionalidade 3`: Busca! Implementando.
+- `Funcionalidade 4`: DarkMode!
+- `Funcionalidade 5`: ...Implementando...
 # 📁 Acesso ao projeto
 
 **Através deste repo do Github, é possivel baixar o projeto**
@@ -24,6 +26,10 @@ Você pode ver o projeto funcionando [aqui](https://react-alura-tube.vercel.app/
 -cria uma pasta e roda 
 -npm install next react react-dom
 -npm install styled-components (para css)**
+## Como está o projeto?
+- `app.js`: Carrega o setup base do projeto
+  - Contém os Providers de informação
+  - CssReset
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
