@@ -60,10 +60,16 @@ function Header(props) {
                 <div>
                     <h2>
                         {config.name}
-                    </h2>
+                    </h2>                  
                     <p>
                         {config.job}
                     </p>
+                    <p>
+                        {config.joker}
+                    </p>
+                    {/* <a  href={config.linkedin} target="blank" >
+                        Linkedin
+                    </a> */}
                 </div>
             </section>
         </StyledHeader>
@@ -89,7 +95,7 @@ function Timeline({searchValue, ...props}) {
                                 return titleNormalized.includes(searchValueNormalized)
                             }).map((video) => {
                                 return (
-                                    <a key={video.url} href={video.url}>
+                                    <a target="_blank" key={video.url} href={video.url} >
                                         <img className="viImg" src={video.thumb} />
                                         <span>
                                             {video.title}
@@ -116,12 +122,12 @@ function Favorites(props) {
                         <StyledFavorites>
                             {nameFav.map((fav)=> {
                                 return (
-                                    <a href={fav.url}>
-                                        <img src={fav.thumb} />
-                                        <span>
-                                            {fav.nameFav}
-                                        </span>
-                                    </a>
+                                        <a target="_blank" href={fav.url} >
+                                            <img src={fav.thumb} />
+                                            <span>
+                                                {fav.nameFav}
+                                            </span>
+                                        </a>
                                 )
                             })}
                         </StyledFavorites>

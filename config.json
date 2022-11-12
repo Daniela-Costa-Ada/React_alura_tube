@@ -1,9 +1,54 @@
 {
     "name": "Daniela Costa",
     "job": "Software Developer Back End",
+    "linkedin": "https://www.linkedin.com/in/echodanielacosta/",
+    "gitHub": "https://github.com/Daniela-Costa-Ada/React_alura_tube",
+    "joker": "SteeringWheel to FullStack",
     "github": "Daniela-Costa-Ada",
-    "bg": "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "bg": "https://images.unsplash.com/photo-1667487147031-476e357b2fc5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80",
     "playlists": {
+        "Cine":  [            
+            {
+                "title": "Quando Hayao Miyazaki Foi BRUTAL",
+                "url": "https://youtu.be/n1LhSifbzF8?t=15",
+                "thumb": "https://img.youtube.com/vi/n1LhSifbzF8/hqdefault.jpg"
+            },
+            {
+                "title": "A bolha do Japão em Pássaro do Oriente | Netflix Brasil",
+                "url": "https://www.youtube.com/watch?v=0d1Vf9evjXA&list=WL&index=75&t=127s",
+                "thumb": "https://img.youtube.com/vi/0d1Vf9evjXA/hqdefault.jpg"
+            },
+            {
+                "title": "CLUBE DA LUTA, de David Fincher | Análise | Masterclass Decifrando o Cinema #39",
+                "url": "https://www.youtube.com/watch?v=OdvMny-EU3E&list=PLR5sADIVAKhte0UM39frMMDZgP-HN82rC&index=12",
+                "thumb": "https://img.youtube.com/vi/OdvMny-EU3E/hqdefault.jpg"
+            },
+            {
+                "title": "O PROBLEMA SÃO OS OUTROS: O CINEMA DE LARS VON TRIER | SÉRGIO RIZZO",
+                "url": "https://www.youtube.com/watch?v=jjQsnI2l6xw&list=PLR5sADIVAKhte0UM39frMMDZgP-HN82rC&index=18",
+                "thumb": "https://img.youtube.com/vi/jjQsnI2l6xw/hqdefault.jpg"
+            },
+            {
+                "title": "5 Filmes de Fantasia Que Você Não Viu (Provavelmente)",
+                "url": "https://www.youtube.com/watch?v=inIIGBpnmD4&list=WL&index=82",
+                "thumb": "https://img.youtube.com/vi/inIIGBpnmD4/hqdefault.jpg"
+            },
+            {
+                "title": "'Sonhos': Quando Imagem É Mais Importante Que Enredo",
+                "url": "https://www.youtube.com/watch?v=snce9DoQM1I&list=PLR5sADIVAKhte0UM39frMMDZgP-HN82rC&index=18",
+                "thumb": "https://img.youtube.com/vi/snce9DoQM1I/hqdefault.jpg"
+            },
+            {
+                "title": "Federico Fellini: Um realismo escapista?",
+                "url": "https://www.youtube.com/watch?v=lOE_yaCftak&list=PLR5sADIVAKhte0UM39frMMDZgP-HN82rC&index=17",
+                "thumb": "https://img.youtube.com/vi/lOE_yaCftak/hqdefault.jpg"
+            },
+            {
+                "title": "Lully l História do Cinema Brasileiro",
+                "url": "https://www.youtube.com/watch?v=c-yuaqjyX3c&list=PLR5sADIVAKhte0UM39frMMDZgP-HN82rC&index=20",
+                "thumb": "https://img.youtube.com/vi/c-yuaqjyX3c/hqdefault.jpg"
+            }
+        ],
         "Makes":  [
             {
                 "title": "MY SIGNATURE SUMMER MAKEUP! | Hindash",
@@ -30,7 +75,6 @@
                 "url": "https://youtu.be/uzcvYsLVVP0",
                 "thumb": "https://img.youtube.com/vi/uzcvYsLVVP0/hqdefault.jpg"                
             }
-
         ],
         "Cooking":  [
             {
@@ -53,28 +97,49 @@
                 "url": "https://youtu.be/hGy_fFFxtl0",
                 "thumb": "https://img.youtube.com/vi/hGy_fFFxtl0/hqdefault.jpg"
             }
-        ],
-        "Cine":  [
-            
-            {
-                "title": "Quando Hayao Miyazaki Foi BRUTAL",
-                "url": "https://youtu.be/n1LhSifbzF8?t=15",
-                "thumb": "https://img.youtube.com/vi/n1LhSifbzF8/hqdefault.jpg"
-            }
-        ]      
+        ]    
     },
     "favorites": {
         "Favorites":  [
             {
-                "nameFav": "dani costa",
-                "url": "https://www.youtube.com/channel/UCrJ4tjBYs1xxu3OSk0Fi90A",
-                "thumb": "https://yt3.ggpht.com/ytc/AMLnZu94H2EwglMnSu9nHPxbdFQCZjHfa05PXJiSr4bBnA=s176-c-k-c0x00ffffff-no-rj"
+                "nameFav": "Hindash",
+                "url": "https://www.youtube.com/c/Hindash",
+                "thumb": "https://yt3.ggpht.com/ytc/AMLnZu-nbOQB-7iw3ebzc_pPg6FcbeiqZUQUUIwfkuB6BQ=s176-c-k-c0x00ffffff-no-rj"
                 
             },
             {
-                "nameFav": "Mario Souto - Dev Soutinho",
-                "url": "https://www.youtube.com/c/DevSoutinho",
-                "thumb": "https://yt3.ggpht.com/m8Yrqf0Y81L4mZ1Cq7rGnJ4NDHe6729rxiFZvWyy9-xd_Z7Osmza7J8NWpN1axMHcCb1oKJNgA=s176-c-k-c0x00ffffff-no-rj"
+                "nameFav": "Le Plat du Jour",
+                "url": "https://www.youtube.com/user/leplatdujourTV",
+                "thumb": "https://yt3.ggpht.com/ukMUsVmSNsy45oDRsUiA2r0qn1f1-fy71ltcoWscMWC_-e_mpBW2LpgR6hRFetGLVAwg60Fl5w=s176-c-k-c0x00ffffff-no-rj"
+                
+            },
+            {
+                "nameFav": "Elegante",
+                "url": "https://www.youtube.com/user/CanalElegante",
+                "thumb": "https://yt3.ggpht.com/KoVXEhjS0Oi82bii9xnKTW6dnPiwkrupeiUND5xGYIbJYNGfgvEx7iit91RpaOVrAPTgU7oZGQ=s176-c-k-c0x00ffffff-no-rj"
+            },
+            {
+                "nameFav": "FEU BJJ",
+                "url": "https://www.youtube.com/channel/UCFcwIZVhdTsMphI2sC7E2IA",
+                "thumb": "https://yt3.ggpht.com/3LPng0jUe3a2eqwf9UxBJEXIBPNhpyNajPrd-rB0h646ynTna6pqent6nhLCjfkOwSGl8fSo5A=s176-c-k-c0x00ffffff-no-rj"
+                
+            },
+            {
+                "nameFav": "Mochileiro Livre",
+                "url": "https://www.youtube.com/user/fhenrique41",
+                "thumb": "https://yt3.ggpht.com/ytc/AMLnZu9sF7sD9qfbhrQpP0lFLAbFl225ee8eByLdoG22tzo=s176-c-k-c0x00ffffff-no-rj"
+                
+            },
+            {
+                "nameFav": "EntrePlanos ",
+                "url": "https://www.youtube.com/c/EntrePlanosVideos",
+                "thumb": "https://yt3.ggpht.com/ytc/AMLnZu_mfqJ7QV7hMyfmQBzmxG90qEIq2Whhh1QM9CCeFQ=s176-c-k-c0x00ffffff-no-rj"
+                
+            },
+            {
+                "nameFav": "",
+                "url": "",
+                "thumb": ""
                 
             }
         ]

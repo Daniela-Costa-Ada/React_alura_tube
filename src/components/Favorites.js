@@ -12,11 +12,9 @@ h2 {
     text-transform: capitalize;
 }
 img {
-    border-radius: 50%; 
-    //font-weight: 500;
+    width: 6rem;
+    border-radius: 50%;
     object-fit: cover;
-    width: 80%;
-    //max-width: 210px;
     height: auto;
 }
 section {
@@ -24,12 +22,10 @@ section {
     padding: 0;
     overflow: hidden;
     padding: 16px;
-    div {
-    
-    width: calc(100vw - 16px * 4);
+    div {  
+width: calc(100vw - 16px * 4);
     display: grid;
-    grid-gap: 16px;
-    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(105px,1fr));
     grid-auto-flow: column;
     grid-auto-columns: minmax(200px,1fr);
     overflow-x: scroll;
