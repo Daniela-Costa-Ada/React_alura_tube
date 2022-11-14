@@ -20,7 +20,8 @@
 - `Funcionalidade 2`: Lista de favoritos do youtube.
 - `Funcionalidade 3`: Busca. 
 - `Funcionalidade 4`: DarkMode.
-- `Funcionalidade 5`: Formulario para inserção de dados.Implementando!
+- `Funcionalidade 5`: Formulario para inserção de dados.
+- `Funcionalidade 6`: Inserção de dados no Banco.
 
 # 📁 Acesso ao projeto
 
